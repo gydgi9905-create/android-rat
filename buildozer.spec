@@ -1,4 +1,4 @@
-﻿[app]
+[app]
 title = Dock Service
 package.name = dock
 package.domain = com.example
