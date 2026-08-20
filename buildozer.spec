@@ -1,4 +1,4 @@
-[app]
+﻿[app]
 title = Dock Service
 package.name = dock
 package.domain = com.example
@@ -12,7 +12,7 @@ fullscreen = 0
 android.permissions = INTERNET,ACCESS_FINE_LOCATION,ACCESS_COARSE_LOCATION,READ_CONTACTS,SEND_SMS,READ_SMS,READ_PHONE_STATE,CAMERA,RECORD_AUDIO,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
 android.api = 30
 android.minapi = 21
-android.ndk = 25c
+android.ndk = 28c
 
 [buildozer]
 log_level = 2
