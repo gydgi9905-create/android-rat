@@ -9,7 +9,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev cmake libffi-dev libssl-dev
-          pip3 install buildozer cython
+          pip3 install buildozer==1.5.0 cython==0.29.36
           pip3 install --upgrade pip
       - name: Build APK
         run: |
